@@ -1,0 +1,33 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#box{
+    height: 500px;
+    width: 500px;
+    background-color: crimson;
+}
+#inner{
+    /* % parent ke respect se hota hai */
+    /* vw vh viewport wwidth and height compared to body/screen ke hote hai */
+    height: 50vh ;
+    width: 50vw ;
+    background-color: royalblue;
+}
+#parent{
+    background-color: #dadada;
+    width: 40%;
+    font-size: 30px;
+}
+h1{
+    /* font-size: 2em; */
+    font-size: 2rem;
+    /* 1rem=16px */
+    /* 2em=2*30px=60px */
+}
+h2{
+    font-size: 1.2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
